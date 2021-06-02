@@ -75,15 +75,26 @@ characters = shuffle(characters)
       <ZeroEscapeIndexTile key={character.name} character={character} />
     )
   })
+  // <section className="hero is-small is-primary">
+  // <div className="hero-body">
+  // <p className="title">
+  // Virtue's Last Reward
+  // </p>
+  // <p className="subtitle">
+  // Characters
+  // </p>
+  // </div>
+  // </section>
   return (
-    <div id="Zero-Escape-Index-Container">
-      <h1>Virtue's Last Reward</h1>
-      <p>Nonary Game: Ambidex Edition</p>
-      <p>Always a new challenge</p>
-      <div className="columns is-multiline">
-        {characterTiles}
+    <>
+      <div id="Zero-Escape-Index-Container">
+        <h1 style={{ color: "#13947E" }}>The Zero Escape Video Game Series</h1>
+        <h2>Characters</h2>
+        <div className="columns is-multiline">
+          {characterTiles}
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
