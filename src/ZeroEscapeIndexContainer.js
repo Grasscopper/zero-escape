@@ -12,7 +12,6 @@ import Phi from './characters/Phi.jpg'
 import Quark from './characters/Quark.jpg'
 import Sigma from './characters/Sigma.jpg'
 import Tenmyouji from './characters/Tenmyouji.jpg'
-import Zero from './characters/Zero.jpg'
 
 const ZeroEscapeIndexContainer = (props) => {
 
@@ -66,11 +65,24 @@ const ZeroEscapeIndexContainer = (props) => {
   ]
 
   return (
-    <div id="Zero-Escape-Index-Container">
-      <h1 style={{ color: "#13947E" }}>Zero Escape</h1>
-      <ZeroEscapeOverview />
-      <h2>Games</h2>
-      <ZeroEscapeVLR characters={vlr} />
+    <div>
+      <section className="hero is-small">
+        <div className="hero-body">
+          <p className="title" style={{ color: "#13947E" }}>
+          Zero Escape
+          </p>
+          <p className="subtitle has-text-white">
+          A visual novel adventure series
+          </p>
+        </div>
+      </section>
+
+      <div id="Zero-Escape-Index-Container">
+        <ZeroEscapeOverview />
+        <h2>Games</h2>
+        <ZeroEscapeVLR characters={vlr} />
+      </div>
+
     </div>
   )
 }
