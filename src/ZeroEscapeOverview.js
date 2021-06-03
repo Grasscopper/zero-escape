@@ -1,33 +1,41 @@
 import React from 'react'
-
+import Zero from './characters/Zero.jpg'
+import ZeroArt from './characters/ZeroArt.png'
 import ZeroEscapeTrilogy from './characters/Zero Escape Trilogy.jpg'
+import NNN from './characters/NNN Cast.png'
 
 const ZeroEscapeOverview = (props) => {
   let p = {
-    "padding-top": "20px",
-    "padding-left": "10px",
-    "padding-right": "10px",
-    "margin-bottom": "0px"
+    paddingTop: "20px",
+    paddingLeft: "10px",
+    paddingRight: "10px",
+    marginBottom: "0px"
   }
 
   let i = {
-    "border": "none",
-    "padding-top": "20px",
-    "padding-left": "10px",
-    "padding-right": "10px",
-    "padding-bottom": "0px"
+    border: "none",
+    paddingTop: "20px",
+    paddingLeft: "10px",
+    paddingRight: "10px",
+    paddingBottom: "0px"
   }
+
 
   return (
     <>
       <h2>Overview</h2>
 
       <div className="columns">
-        <div className="column is-half" style={{ "text-align": "center" }}>
-          <img src={ZeroEscapeTrilogy} alt="Zero Escape Trilogy" style={i} />
+        <div className="column is-half" style={{ textAlign: "center" }}>
+        <img
+          src={NNN}
+          alt="Zero Escape Trilogy"
+          style={{ marginTop: 27, border: "none" }}
+        />
         </div>
 
         <div className="column is-half">
+          <p className="title has-text-white" style={p}>Let the games begin!</p>
           <p style={p}>
           Zero Escape is a video game trilogy of visual novel adventures
           featuring puzzle solving and branching story paths created by
