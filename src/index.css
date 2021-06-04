@@ -47,9 +47,12 @@ img {
   text-align: center;
 }
 
+/* .column-nest ORIGINAL BACKGROUND COLOR AND BOX SHADOW */
+/* background-color: #1FD1B2; */
+/* box-shadow: 12px 12px 2px 1px rgba(72, 199, 142, .2); */
 .column-nest {
-  background-color: #1FD1B2;
+  background-color: #8BDFF9;
   border-radius: 2%;
-  box-shadow: 12px 12px 2px 1px rgba(72, 199, 142, .2);
+  box-shadow: 12px 12px 2px 1px rgba(12, 170, 220, .2);
   height: 75%;
 }

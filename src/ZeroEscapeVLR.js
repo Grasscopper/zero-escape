@@ -1,12 +1,74 @@
 import React from 'react'
 import ZeroEscapeIndexTile from './ZeroEscapeIndexTile'
 
+import Alice from './characters/Alice.jpg'
+import Clover from './characters/Clover.jpg'
+import Dio from './characters/Dio.jpg'
+import K from './characters/K.jpg'
+import Luna from './characters/Luna.jpg'
+import Phi from './characters/Phi.jpg'
+import Quark from './characters/Quark.jpg'
+import Sigma from './characters/Sigma.jpg'
+import Tenmyouji from './characters/Tenmyouji.jpg'
+
 const ZeroEscapeVLR = (props) => {
-  let characterTiles = props.characters.map((character) => {
+  //Characters from Virtue's Last Reward
+  let characters = [
+    {
+      name: "Sigma",
+      game: "Virtue's Last Reward",
+      picture: Sigma
+    },
+    {
+      name: "Phi",
+      game: "Virtue's Last Reward",
+      picture: Phi
+    },
+    {
+      name: "Luna",
+      game: "Virtue's Last Reward",
+      picture: Luna
+    },
+    {
+      name: "Clover",
+      game: "Virtue's Last Reward",
+      picture: Clover
+    },
+    {
+      name: "Alice",
+      game: "Virtue's Last Reward",
+      picture: Alice
+    },
+    {
+      name: "Dio",
+      game: "Virtue's Last Reward",
+      picture: Dio
+    },
+    {
+      name: "Tenmyouji",
+      game: "Virtue's Last Reward",
+      picture: Tenmyouji
+    },
+    {
+      name: "Quark",
+      game: "Virtue's Last Reward",
+      picture: Quark
+    },
+    {
+      name: "K",
+      game: "Virtue's Last Reward",
+      picture: K
+    }
+  ]
+
+  let characterTiles = characters.map((character) => {
     return (
       <ZeroEscapeIndexTile key={character.name} character={character} />
     )
   })
+
+  // SQUARE Sigma and Phi
+  // src="https://lh3.googleusercontent.com/proxy/lh-hpjqv-jrIytk_THlQlLaQ24yB6N8C7VM56W4x6tChXYIKLy2BWOhIc2zV52lfWAUQqp5cyXlyIHLuoAj5LfaxH0CnP5GIwpiGUaiPnd9-j-XIhH9SR1gGw7YTxrKgs18U-ReBIiwZbg"
 
   return (
     <div className="columns is-multiline">
@@ -54,9 +116,6 @@ const ZeroEscapeVLR = (props) => {
                     Could these nine strangers trust one another long enough to escape their prison alive?</p>
                     </div>
               </div>
-        </div>
-
-        <div className="column is-full">
         </div>
 
         {characterTiles}
