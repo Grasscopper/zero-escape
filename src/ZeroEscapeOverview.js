@@ -1,8 +1,5 @@
 import React from 'react'
-import Zero from './characters/Zero.jpg'
-import ZeroArt from './characters/ZeroArt.png'
-import ZeroEscapeTrilogy from './characters/Zero Escape Trilogy.jpg'
-import NNN from './characters/NNN Cast.png'
+import Art from './Images/Series/999 Cast.png'
 
 const ZeroEscapeOverview = (props) => {
   let p = {
@@ -28,8 +25,8 @@ const ZeroEscapeOverview = (props) => {
       <div className="columns">
         <div className="column is-half" style={{ textAlign: "center" }}>
         <img
-          src={NNN}
-          alt="Zero Escape Trilogy"
+          src={Art}
+          alt="999 Cast"
           style={{ marginTop: 27, border: "none" }}
         />
         </div>

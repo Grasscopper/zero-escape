@@ -1,6 +1,6 @@
 import React from 'react'
 import ZeroEscapeOverview from './ZeroEscapeOverview'
-import ZeroEscapeNNN from './ZeroEscapeNNN'
+import ZeroEscape999 from './ZeroEscape999'
 import ZeroEscapeVLR from './ZeroEscapeVLR'
 
 const ZeroEscapeIndexContainer = (props) => {
@@ -21,7 +21,7 @@ const ZeroEscapeIndexContainer = (props) => {
       <div id="Zero-Escape-Index-Container">
         <ZeroEscapeOverview />
         <h2>Games</h2>
-        <ZeroEscapeNNN />
+        <ZeroEscape999 />
         <ZeroEscapeVLR />
       </div>
 

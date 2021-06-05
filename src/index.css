@@ -56,3 +56,10 @@ img {
   box-shadow: 12px 12px 2px 1px rgba(12, 170, 220, .2);
   height: 75%;
 }
+
+.zero-nest {
+  background-color: #F14668;
+  border-radius: 2%;
+  box-shadow: 12px 12px 2px 1px rgba(139, 0, 0, .2);
+  height: 75%;
+}
