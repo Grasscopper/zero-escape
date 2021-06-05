@@ -1,17 +1,6 @@
 import React from 'react'
 import ZeroEscapeIndexTile from './ZeroEscapeIndexTile'
 
-<<<<<<< HEAD
-import Alice from './characters/Alice.jpg'
-import Clover from './characters/Clover.jpg'
-import Dio from './characters/Dio.jpg'
-import K from './characters/K.jpg'
-import Luna from './characters/Luna.jpg'
-import Phi from './characters/Phi.jpg'
-import Quark from './characters/Quark.jpg'
-import Sigma from './characters/Sigma.jpg'
-import Tenmyouji from './characters/Tenmyouji.jpg'
-=======
 import Title from './Images/VLR/Art/VLR Logo.png'
 import Art from './Images/VLR/Art/VLR Section Art.jpg'
 
@@ -24,7 +13,6 @@ import Phi from './Images/VLR/Characters/Phi.jpg'
 import Quark from './Images/VLR/Characters/Quark.jpg'
 import Sigma from './Images/VLR/Characters/Sigma.jpg'
 import Tenmyouji from './Images/VLR/Characters/Tenmyouji.jpg'
->>>>>>> f58e8ae8892aa37b2100f75c74e7e0bcceadc7f6
 
 const ZeroEscapeVLR = (props) => {
   //Characters from Virtue's Last Reward
@@ -81,9 +69,6 @@ const ZeroEscapeVLR = (props) => {
       <ZeroEscapeIndexTile key={character.name} character={character} />
     )
   })
-
-  // SQUARE Sigma and Phi
-  // src="https://lh3.googleusercontent.com/proxy/lh-hpjqv-jrIytk_THlQlLaQ24yB6N8C7VM56W4x6tChXYIKLy2BWOhIc2zV52lfWAUQqp5cyXlyIHLuoAj5LfaxH0CnP5GIwpiGUaiPnd9-j-XIhH9SR1gGw7YTxrKgs18U-ReBIiwZbg"
 
   return (
     <div className="columns is-multiline">

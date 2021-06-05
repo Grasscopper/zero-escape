@@ -1,63 +1,65 @@
 import React from 'react'
 import ZeroEscapeIndexTile from './ZeroEscapeIndexTile'
 
-import Title from './characters/Spike.jpg'
-import Ace from './characters/Ace.jpg'
-import Snake from './characters/Snake.jpg'
-import Santa from './characters/Santa.jpg'
-import Clover from './characters/CloverNNN.jpg'
-import Junpei from './characters/Junpei.jpg'
-import June from './characters/June.jpg'
-import Seven from './characters/Seven.jpg'
-import Lotus from './characters/Lotus.jpg'
-import NinthMan from './characters/NinthMan.jpg'
+import Title from './Images/999/Art/999 Logo.jpg'
+import Art from './Images/999/Art/999 Section Art.jpg'
+
+import Ace from './Images/999/Characters/Ace.jpg'
+import Snake from './Images/999/Characters/Snake.jpg'
+import Santa from './Images/999/Characters/Santa.jpg'
+import Clover from './Images/999/Characters/Clover.jpg'
+import Junpei from './Images/999/Characters/Junpei.jpg'
+import June from './Images/999/Characters/June.jpg'
+import Seven from './Images/999/Characters/Seven.jpg'
+import Lotus from './Images/999/Characters/Lotus.jpg'
+import NinthMan from './Images/999/Characters/NinthMan.jpg'
 
 const ZeroEscapeNNN = (props) => {
   //Characters from 9 Hours, 9 Persons, 9 Doors
   let characters = [
     {
       name: "Ace",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Ace
     },
     {
       name: "Snake",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Snake
     },
     {
       name: "Santa",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Santa
     },
     {
       name: "Clover",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Clover
     },
     {
       name: "Junpei",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Junpei
     },
     {
       name: "June",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: June
     },
     {
       name: "Seven",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Seven
     },
     {
       name: "Lotus",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: Lotus
     },
     {
       name: "Ninth Man",
-      game: "Virtue's Last Reward",
+      game: "9 Hours, 9 Persons, 9 Doors",
       picture: NinthMan
     }
   ]
@@ -85,7 +87,7 @@ const ZeroEscapeNNN = (props) => {
 
         <div className="character column is-half">
         <img
-          src="https://i.pinimg.com/originals/b7/d7/14/b7d71413929c2f20cf8d399ef95f8bda.jpg"
+          src={Art}
           alt="999 Cast"
         />
         </div>
