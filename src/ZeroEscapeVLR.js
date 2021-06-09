@@ -119,6 +119,7 @@ const ZeroEscapeVLR = (props) => {
         </div>
 
         {characterTiles}
+        <div className="push-game" />
     </div>
   )
 }
