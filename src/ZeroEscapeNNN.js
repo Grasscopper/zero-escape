@@ -139,6 +139,7 @@ const ZeroEscapeNNN = (props) => {
         </div>
 
         {characterTiles}
+        <div className="push-game" />
     </div>
   )
 }
